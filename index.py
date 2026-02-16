@@ -85,4 +85,6 @@ def edit():
 
 # Run the app on port 5001 in debug mode
 if __name__ == "__main__":
+    print(2)
     app.run(debug=True, port=5001)
+
